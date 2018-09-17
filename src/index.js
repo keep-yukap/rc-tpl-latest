@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-class App extends React.Component {
+import './style.scss';
+
+export default class App extends React.Component {
   render() {
     return (
-      <div>hello world</div>
+      <div className="demo">hello world 你好呀</div>
     );
   }
 }
-
-ReactDOM.render(<App />, document.getElementById('app'));
